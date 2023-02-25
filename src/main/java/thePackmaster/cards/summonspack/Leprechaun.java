@@ -46,6 +46,7 @@ public class Leprechaun extends AbstractSummonsCard {
     public void use(AbstractPlayer p, AbstractMonster m) {
         blck();
         atb(new ChannelAction(new thePackmaster.orbs.summonspack.Leprechaun()));
+         atb(new ChannelAction(new thePackmaster.orbs.summonspack.Leprechaun()));
     }
 
     @Override
